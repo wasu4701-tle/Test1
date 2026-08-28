@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "7zvDo85ZS30=",
+  "dgSpecHash": "PWLx1ifQedk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\tee\\Project\\Project.csproj",
+  "projectFilePath": "C:\\Users\\tee\\Desktop\\Test1\\Project.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\tee\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.11\\microsoft.aspnetcore.app.internal.assets.10.0.11.nupkg.sha512"
+    "C:\\Users\\tee\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.5\\microsoft.aspnetcore.app.internal.assets.10.0.5.nupkg.sha512"
   ],
   "logs": []
 }
