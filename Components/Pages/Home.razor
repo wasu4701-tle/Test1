@@ -5,3 +5,21 @@
 <h1>Hello, world!</h1>
 
 Welcome to your new app.
+using  System ; 
+using  System.Collections.Generic ; 
+using  System.Text ; 
+class Program
+ { 
+     static  void Main ( string [ ] args ) 
+      { 
+           while  ( true ) 
+            { 
+                int randno = Newnum ( 1 , 101 ) ; 
+                int count =  1 ; 
+                while  ( true ) 
+                { 
+                    Console.Write ( " ป้อนตัวเลขระหว่าง 1 ถึง 100 (0 เพื่อออก):" ) ; int input = Convert.ToInt32 ( Console.ReadLine ( ) ) ; if ( input == 0 ) return ; else if ( input < randno ) { Console.WriteLine ( " 
+                        ต่ำลองอีกครั้ง" ) ; ++ count ; continue ; } else if ( input > randno ) { 
+                        Console.WriteLine ( " สูง ลองอีกครั้ง" ) ; ++ count ; continue ; } else { 
+                        Console . WriteLine ( "คุณเดาถูกแล้ว! ตัวเลขคือ {0}!" ,
+                    
