@@ -23,3 +23,20 @@ class Program
                         Console.WriteLine ( " สูง ลองอีกครั้ง" ) ; ++ count ; continue ; } else { 
                         Console . WriteLine ( "คุณเดาถูกแล้ว! ตัวเลขคือ {0}!" ,
                     
+                                  
+                                           randno ) ; 
+                        Console . WriteLine ( "It took you {0} {1}. \n " , count,
+                                           count ==  1  ?  "try"  :  "tries" ) ; 
+                        break ; 
+                    } 
+                } 
+            }
+ 
+        } 
+        static  int Newnum ( int min, int max ) 
+        { 
+            Random random =  new Random ( ) ; 
+            return random . Next ( min, max ) ; 
+        } 
+    } 
+}
